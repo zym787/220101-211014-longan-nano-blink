@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/zym78/Documents/PlatformIO/Projects/220101-211014-longan-nano-blink/.pio/build/sipeed-longan-nano/firmware.elf",
+            "projectEnvName": "sipeed-longan-nano",
+            "toolchainBinDir": "C:/Users/zym78/.platformio/packages/toolchain-gd32v/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/zym78/.platformio/platforms/gd32v/misc/svd/GD32VF103.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/zym78/Documents/PlatformIO/Projects/220101-211014-longan-nano-blink/.pio/build/sipeed-longan-nano/firmware.elf",
+            "projectEnvName": "sipeed-longan-nano",
+            "toolchainBinDir": "C:/Users/zym78/.platformio/packages/toolchain-gd32v/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/zym78/.platformio/platforms/gd32v/misc/svd/GD32VF103.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/zym78/Documents/PlatformIO/Projects/220101-211014-longan-nano-blink/.pio/build/sipeed-longan-nano/firmware.elf",
+            "projectEnvName": "sipeed-longan-nano",
+            "toolchainBinDir": "C:/Users/zym78/.platformio/packages/toolchain-gd32v/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/zym78/.platformio/platforms/gd32v/misc/svd/GD32VF103.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
